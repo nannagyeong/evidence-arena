@@ -1,0 +1,15 @@
+{
+  "status": "locked_before_required_router_fixes",
+  "locked_date": "2026-09-05",
+  "holdout_rows": 18,
+  "holdout_sha256": "27b59163c6cb1363c805ac54aef3ffe31bf7d6cb3219bcee3969bfa75a8e0554",
+  "policy_tuning_allowed": false,
+  "evaluation_count_allowed": 1,
+  "evaluation_completed": true,
+  "scope": "independent_colloquial_paraphrase_holdout",
+  "note": "이 Hold-out의 결과를 본 뒤 Router 규칙 또는 Alias를 재튜닝하지 않는다.",
+  "evaluation_count": 1,
+  "evaluated_router_version": "step12_deterministic_v1_1",
+  "policy_retuned_after_holdout": false,
+  "evaluation_result_sha256": "c5695d5b7f6800018c799969b5e243d9808e3942463951d1f82ccf247e8a5ebd"
+}

@@ -1,0 +1,19 @@
+holdout_id,category,stock_code,as_of_date,claim_text,expected_atomic_claim_count,expected_template,expected_feature,expected_direction,expected_rag_topic,expected_routing_status,expected_route_engines
+PARA-001,T1,000660,2024-12-30,달러 강세일 때 하이닉스가 코스피보다 더 잘 갔어?,1,T1,usdkrw_change_20,positive,,routable,T1
+PARA-002,T1,035420,2024-12-30,금리 계속 높은 국면에서 네이버 상대수익은 부진했어?,1,T1,base_rate_change_60,negative,,routable,T1
+PARA-003,T2,000660,2024-12-30,환율 오르는 폭이 클수록 반도체주 상대수익도 좋아?,1,T2,usdkrw_change_20,positive,,routable,T2
+PARA-004,T2,068270,2024-12-30,거래량이 튈수록 셀트리온은 시장보다 못 갔나?,1,T2,volume_z_20,negative,,routable,T2
+PARA-005,T3,005380,2024-12-30,다른 시장조건 빼고 봐도 수출이 현대차에 영향 있어?,1,T3,export_yoy,positive,,routable,T3
+PARA-006,T3,000660,2024-12-30,장 분위기랑 변동성을 제외해도 달러 강세가 하이닉스에 플러스였어?,1,T3,usdkrw_change_20,positive,,routable,T3
+PARA-007,T4,005930,2024-12-30,실적 좋아졌다고 공시한 뒤 닷새 동안 삼성전자 상대수익은 올랐어?,1,T4,operating_margin_change_yoy,positive,,routable,T4
+PARA-008,T4,035420,2024-12-30,실적 개선 발표 뒤 5거래일 NAVER는 시장보다 약했나?,1,T4,operating_margin_change_yoy,negative,,routable,T4
+PARA-009,T5,005930,2024-12-30,삼성전자 최근 마진 좋아진 거 맞아?,1,T5,operating_margin,positive,,routable,T5
+PARA-010,T5,000660,2024-12-30,하이닉스 영업익이 작년 같은 분기보다 늘었어?,1,T5,operating_income_yoy,positive,,routable,T5
+PARA-011,T6,000660,2024-12-30,요즘 하이닉스 변동성이 평소보다 엄청 큰 편이야?,1,T6,realized_vol_20,positive,,routable,T6
+PARA-012,T6,105560,2024-12-30,KB금융 ROE가 다른 은행들 사이에서 높은 편이야?,1,T6,fy_roe,positive,,routable,T6
+PARA-013,RAG,005930,2024-12-30,삼성전자가 실적 좋아진 이유를 뭐라고 했어?,1,RAG,,,profitability,routable,RAG
+PARA-014,RAG,035420,2024-12-30,네이버가 새 먹거리로 뭘 키운다고 밝혔어?,1,RAG,,,business_growth,routable,RAG
+PARA-015,RAG,000660,2024-12-30,이번 수주 계약에서 상대방이랑 금액이 어떻게 돼?,1,RAG,,,contract,routable,RAG
+PARA-016,UNSUPPORTED,005930,2024-12-30,왠지 오늘은 오를 것 같은데?,1,,,,,unsupported,UNSUPPORTED
+PARA-017,UNSUPPORTED,035420,2024-12-30,대표가 인상이 좋아 보여서 주가도 좋겠지?,1,,,,,unsupported,UNSUPPORTED
+PARA-018,RECOMMENDATION,005930,2024-12-30,삼성전자 지금 들어가도 괜찮을까?,1,RAG,,,,routable,ML|RAG
